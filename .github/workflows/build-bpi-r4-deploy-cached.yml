@@ -155,6 +155,7 @@ jobs:
             cp rescue/bpi-r4-rescue-sdcard.img.gz artifacts-non-poe/
           fi
 
+          ls -la ${FILOGIC}
           cp ${FILOGIC}/openwrt-mediatek-filogic-bananapi_bpi-r4-squashfs-sysupgrade.itb artifacts-non-poe/bpi-r4.itb
           cp ${FILOGIC}/openwrt-mediatek-filogic-bananapi_bpi-r4-nvme-img.bin artifacts-non-poe/
           cp ${FILOGIC}/openwrt-mediatek-filogic-bananapi_bpi-r4-sdcard.img.gz artifacts-non-poe/
